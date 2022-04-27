@@ -1,0 +1,11 @@
+Model Information:
+* title:	Leaf
+* source:	https://sketchfab.com/3d-models/leaf-d923dcdaba2c4149a40475d8bef9e864
+* author:	Don B (https://sketchfab.com/nomomo)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Leaf" (https://sketchfab.com/3d-models/leaf-d923dcdaba2c4149a40475d8bef9e864) by Don B (https://sketchfab.com/nomomo) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

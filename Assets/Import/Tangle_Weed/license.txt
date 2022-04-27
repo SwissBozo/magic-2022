@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tangle Weed
+* source:	https://sketchfab.com/3d-models/tangle-weed-2d832789dcd247128d3dbc6485979aed
+* author:	Iso-Didact (https://sketchfab.com/Matthew.James.Logothetis)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tangle Weed" (https://sketchfab.com/3d-models/tangle-weed-2d832789dcd247128d3dbc6485979aed) by Iso-Didact (https://sketchfab.com/Matthew.James.Logothetis) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: ecal
-  productName: MagicExample
+  productName: ArthurLucchesi
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -158,7 +158,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Lumin: ch.ecal.magic
+    Lumin: ch.ecal.magic.arthur
     Standalone: com.DefaultCompany.ML-Tracker-Test
   buildNumber:
     Standalone: 0
@@ -352,7 +352,9 @@ PlayerSettings:
     Android: 1
     iPhone: 1
     tvOS: 1
-  m_BuildTargetGroupLightmapEncodingQuality: []
+  m_BuildTargetGroupLightmapEncodingQuality:
+  - m_BuildTarget: Lumin
+    m_EncodingQuality: 1
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetNormalMapEncoding: []
   playModeTestRunnerEnabled: 0
@@ -683,7 +685,7 @@ PlayerSettings:
     m_ModelFolderPath: 
     m_PortalFolderPath: 
   luminCert:
-    m_CertPath: ./Certificates/dev.cert
+    m_CertPath: D:/ECAL/4_semestre/Semaines_Blocs/SB3_Magic_Leap/magic-2022/magic-2022/Certificates/dev.cert
     m_SignPackage: 1
   luminIsChannelApp: 0
   luminVersion:

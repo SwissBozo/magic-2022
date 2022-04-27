@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tabaiba
+* source:	https://sketchfab.com/3d-models/tabaiba-cfab88fc547b4644b115d9b5ee548bbc
+* author:	pablorsuarez (https://sketchfab.com/pablorsuarez)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tabaiba" (https://sketchfab.com/3d-models/tabaiba-cfab88fc547b4644b115d9b5ee548bbc) by pablorsuarez (https://sketchfab.com/pablorsuarez) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
