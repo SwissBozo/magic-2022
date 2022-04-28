@@ -128,13 +128,13 @@ namespace Sketchfab
 
 		private void handleDragNDrop()
 		{
-			DragAndDrop.visualMode = DragAndDropVisualMode.Generic;
+			UnityEditor.DragAndDrop.visualMode = UnityEditor.DragAndDropVisualMode.Generic;
 
 			if (Event.current.type == EventType.DragExited)
 			{
-				if (DragAndDrop.paths.Length > 0)
+				if (UnityEditor.DragAndDrop.paths.Length > 0)
 				{
-					_importFilePath = DragAndDrop.paths[0];
+					_importFilePath = UnityEditor.DragAndDrop.paths[0];
 					//updateSettingsWithFile();
 				}
 			}
