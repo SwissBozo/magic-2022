@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95ddc89d499546498e6d75f3798811df, type: 3}
   m_Name: New Esp 32 Input Settings
   m_EditorClassIdentifier: 
-  serverPort: 8889
+  serverPort: 8891
   clients:
   - name: controller1
     address: 10.189.8.57
