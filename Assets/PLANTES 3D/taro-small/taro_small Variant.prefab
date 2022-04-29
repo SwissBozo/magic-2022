@@ -12,6 +12,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4988ad8eb8798714fb071f8d02524602, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4988ad8eb8798714fb071f8d02524602, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4988ad8eb8798714fb071f8d02524602, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4988ad8eb8798714fb071f8d02524602, type: 3}
       propertyPath: m_LocalPosition.x
       value: 221.92671
       objectReference: {fileID: 0}
@@ -57,7 +69,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 36aa500006118ea45aa190ebfd1075ce, type: 2}
     - target: {fileID: 919132149155446097, guid: 4988ad8eb8798714fb071f8d02524602, type: 3}
       propertyPath: m_Name
-      value: taro_small
+      value: taro_small Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4988ad8eb8798714fb071f8d02524602, type: 3}

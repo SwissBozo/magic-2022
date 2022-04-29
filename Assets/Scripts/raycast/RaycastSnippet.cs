@@ -45,6 +45,30 @@ public class RaycastSnippet : MonoBehaviour
        StopCoroutine(loop); 
     }
 
+    float mod(float x, float m) {
+        float r = x%m;
+        return r<0 ? r+m : r;
+    }
+
+    void Update(){
+        
+        PlantRandomizer randomizer = prefab.GetComponent<PlantRandomizer>();
+        float input =mod( encoder.ReadValue<float>(),1);
+        float plantIdFloat = Mathf.Lerp(0,randomizer.prefabs.Count,input);
+
+        int lastPlantId = plantId;
+        plantId =  Mathf.RoundToInt(plantIdFloat) ;
+
+        
+        if(plantId != lastPlantId){
+            if(encoder.activeControl!=null)
+            {
+                Esp32InputDevice device = encoder.activeControl.device as Esp32InputDevice;
+                device.SendHapticEvent(14);
+            }
+        }
+
+    }
     
      IEnumerator Loop(){
 
@@ -80,12 +104,8 @@ public class RaycastSnippet : MonoBehaviour
 
 
         GameObject plantInstance = Instantiate(prefab,point,rotation);
-        PlantRandomizer randomizer = plantInstance.GetComponent<PlantRandomizer>();
-        float input = encoder.ReadValue<float>();
-        float plantIdFloat =  Mathf.Lerp(0,randomizer.prefabs.Count,input);
-        plantId = Mathf.RoundToInt(plantIdFloat);
 
-        randomizer.plantId = plantId;
+        plantInstance.GetComponent<PlantRandomizer>().plantId = plantId;
 
         int index = Random.Range(0, shoot.Length);
         shootClip = shoot[index];

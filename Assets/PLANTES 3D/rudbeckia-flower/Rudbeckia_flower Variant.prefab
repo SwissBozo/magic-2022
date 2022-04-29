@@ -12,6 +12,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3166ada20671d4f4baa79945df35fc95, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3166ada20671d4f4baa79945df35fc95, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3166ada20671d4f4baa79945df35fc95, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3166ada20671d4f4baa79945df35fc95, type: 3}
       propertyPath: m_LocalPosition.x
       value: 219.38
       objectReference: {fileID: 0}
@@ -57,7 +69,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 40c3cb72a278ed145b3e35d79e783652, type: 2}
     - target: {fileID: 919132149155446097, guid: 3166ada20671d4f4baa79945df35fc95, type: 3}
       propertyPath: m_Name
-      value: Rudbeckia_flower
+      value: Rudbeckia_flower Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3432485602032813281, guid: 3166ada20671d4f4baa79945df35fc95, type: 3}
       propertyPath: m_Materials.Array.data[0]

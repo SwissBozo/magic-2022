@@ -42,7 +42,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1
+  m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2063194016205474611
 GameObject:
@@ -98,3 +98,9 @@ MonoBehaviour:
   - {fileID: 4195083833852990020, guid: ccf143333ae2ab04988d8e5586e2ef75, type: 3}
   - {fileID: 1751464693205379095, guid: f43d7af91c29fb54b94f55992927910f, type: 3}
   - {fileID: 5488500701460029240, guid: 988c63bccf8bb71409731226d010c390, type: 3}
+  - {fileID: 1117064096785810, guid: 38902c77a51673b49946f0c92f53595f, type: 3}
+  - {fileID: 994756981368014922, guid: 786ecf91839948b43bfad6a214919e18, type: 3}
+  - {fileID: 2058250843544050550, guid: 7fdfe38ec532afc4bb9157b85bb1eda6, type: 3}
+  - {fileID: 3441790121638114816, guid: 9462846679c1e7b4fb740a11cb026026, type: 3}
+  - {fileID: 8942198252382928566, guid: 34f4e6113dc0b8449b14041ada485a43, type: 3}
+  - {fileID: 5891565774962947875, guid: 263880cd1b8d72b4d9c93475e8131355, type: 3}
