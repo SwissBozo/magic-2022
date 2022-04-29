@@ -42,7 +42,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.7
+  m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2063194016205474611
 GameObject:
@@ -70,7 +70,7 @@ Transform:
   m_GameObject: {fileID: 2063194016205474611}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2063194015897011779}
   m_Father: {fileID: 0}
@@ -88,12 +88,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 580d2acdc356dbc4aa683c83bf0dd899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  plantId: 0
   prefabs:
-  - {fileID: 100000, guid: 99d51e717e3905d479c1f57c356240dc, type: 3}
+  - {fileID: 3214693787742192391, guid: 16be1048ce099a24eafc14eb43e2ccd2, type: 3}
+  - {fileID: 3681351326440688689, guid: 5e086160500a1084dae1e53614ec85a8, type: 3}
   - {fileID: 303662174423642477, guid: 0bc4d611fcf7a154dbb3c9e89f20da6e, type: 3}
-  - {fileID: 1375174633553942, guid: 90daf78708fee99428a8d31bad51fa14, type: 3}
-  - {fileID: 1550230207191338, guid: a7901be2baf837243a84e046e16ad917, type: 3}
-  - {fileID: 4119340359363394084, guid: 431e05c5e2b18ba4fa6b3b0a6f687786, type: 3}
-  - {fileID: 1253365200111527898, guid: 8109e9e16ba4cc04b8e0928aea897927, type: 3}
-  - {fileID: 100000, guid: 8e3f8723af5d8194598e097a9dd1ceb1, type: 3}
-  - {fileID: 100000, guid: a9d7f4d1af077854aa1045cb99e0e00b, type: 3}
+  - {fileID: 5661204235908683113, guid: 74aa4b9768dadf34884e47de36c7eba2, type: 3}
+  - {fileID: 1698920624316846, guid: 6cb9eb6b0730a724eb39c4e25c66dbcd, type: 3}
+  - {fileID: 4195083833852990020, guid: ccf143333ae2ab04988d8e5586e2ef75, type: 3}
+  - {fileID: 1751464693205379095, guid: f43d7af91c29fb54b94f55992927910f, type: 3}
+  - {fileID: 5488500701460029240, guid: 988c63bccf8bb71409731226d010c390, type: 3}

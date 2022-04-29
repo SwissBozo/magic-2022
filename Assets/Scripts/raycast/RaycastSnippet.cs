@@ -1,23 +1,33 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
+using UnityEngine.InputSystem;
 
 public class RaycastSnippet : MonoBehaviour 
 {
 
     public Transform camTransform;
-    public GameObject [] prefabs;
+    public GameObject prefab;
+
+    private AudioSource audioSource;
+    public AudioClip[] shoot;
+    private AudioClip shootClip;
 
     private MLRaycast.QueryParams _raycastParams = new MLRaycast.QueryParams();
 
     public LayerMask layerMask = ~0;
     Coroutine loop;
+
+    public int plantId;
+    public InputAction encoder;
     void Start() 
     {
         // Start raycasting.
         MLRaycast.Start();
-    }
 
+        // Sound
+        audioSource = gameObject.GetComponent<AudioSource>();
+    }
     private void OnDestroy() 
     {
         // Stop raycasting.
@@ -27,6 +37,7 @@ public class RaycastSnippet : MonoBehaviour
 
     void OnEnable(){
         
+        encoder.Enable();
       loop =  StartCoroutine(Loop());
     }
     void OnDisable(){
@@ -68,8 +79,18 @@ public class RaycastSnippet : MonoBehaviour
         // GameObject go = Instantiate(prefabs, point, rotation);
 
 
-        int randomId = Random.Range(0,prefabs.Length-1);
-        Instantiate(prefabs[randomId],point,rotation);
+        GameObject plantInstance = Instantiate(prefab,point,rotation);
+        PlantRandomizer randomizer = plantInstance.GetComponent<PlantRandomizer>();
+        float input = encoder.ReadValue<float>();
+        float plantIdFloat =  Mathf.Lerp(0,randomizer.prefabs.Count,input);
+        plantId = Mathf.RoundToInt(plantIdFloat);
+
+        randomizer.plantId = plantId;
+
+        int index = Random.Range(0, shoot.Length);
+        shootClip = shoot[index];
+        audioSource.clip = shootClip;
+        audioSource.Play();
         
         }
     }
